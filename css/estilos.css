@@ -1,0 +1,132 @@
+.sacola	{
+background-image:	url(../img/sacola.png);
+background-repeat:	no-repeat;
+background-position:	top	right;
+			font-size: 14px;
+			padding-right: 35px;
+			text-align:	right;
+			width: 140px;
+			padding-top: 8px;
+			position:	absolute;
+			top: 0;
+			right: 0;
+
+
+	}
+.menu-opcoes ul li	{
+			font-size: 15px;
+			display:	inline;
+			margin-left: 20px;
+	}
+.menu-opcoes a	{
+				color: #003366;
+	}
+
+.menu-opcoes a:hover	{
+			color: #007DC6;
+	}
+.menu-opcoes a:active	{
+			color: #867DC6;
+	}
+
+body	{
+			color: #333333;
+			font-family: "Lucida	Sans	Unicode",	"Lucida	Grande",	sans-serif;
+	}
+
+container	{
+			margin: 0	auto;
+			width: 940px;
+	}
+
+header	{
+			position:	relative;
+	}
+.menu-opcoes	{
+			position:	absolute;
+			bottom: 0;
+			right: 0;
+	}
+
+.menu-departamentos li ul	{
+			display:	none;
+	}
+.menu-departamentos li:hover ul	{
+			display:	block;
+	}
+.menu-departamentos ul ul li	{
+			background-color: #DCDCDC;
+	}
+
+.menu-departamentos li li a:before	{
+			content: '-	';
+	}
+
+.painel	{
+			border-radius: 4px;
+			box-shadow: 1px 1px 4px #999;
+	}
+.painel h2	{
+			text-shadow: 3px 3px 2px #FFF;
+	}
+.painel	{
+			box-shadow:	inset	1px 1px 4px #999;
+	}
+
+.busca	{
+			border-top-left-radius: 4px;
+			border-top-right-radius: 4px;
+	}
+.painel h2	{
+			text-shadow: 3px 3px 2px	rgba(255,255,255,0.8);
+	}
+.novidades	{
+			background:	linear-gradient(#F5DCDC,	#BEBEF4);
+	}
+.mais-vendidos	{
+			background:	linear-gradient(#DCDCF5,	#F4BEBE);
+	}
+.painel li:hover	{
+		background-color:	rgba(255,255,255,0.8);
+			box-shadow: 0 0 5px #333;
+			transition: 0.7s;
+		transform:	scale(1.2)	rotate(-5deg);
+
+	}
+@media	(max-width:	320px)	{
+.container	{
+			width: 96%;
+	}
+header h1	{
+			text-align:	center;
+	}
+header h1 img	{
+			max-width: 50%;
+	}
+.sacola	{
+			display:	none;
+	}
+.menu-opcoes	{
+			position:	static;
+			text-align:	center;
+	}
+.menu-opcoes ul li	{
+			display:	inline-block;
+			margin: 5px;
+	}
+.busca,
+.menu-departamentos,
+.banner-destaque img	{
+			margin-right: 0;
+			width: 100%;
+	}
+.painel	{
+			width:	auto;
+	}
+.painel li	{
+			width: 30%;
+	}
+.painel img	{
+			width: 100%;
+	}
+}
