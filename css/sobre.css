@@ -73,3 +73,16 @@ figcaption	{
 					vertical-align:	middle;
 					width: 94px;
 	}
+
+p::first-letter {
+	font-weight: bold;
+}
+
+h1	+	p	{
+	text-indent: 0;
+}
+
+p::first-line	{
+	font-variant:	small-caps;
+}
+
